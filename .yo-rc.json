@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.afnetic.esp"
+    },
+    "jhipsterVersion": "6.4.1",
+    "applicationType": "gateway",
+    "baseName": "test",
+    "packageName": "com.afnetic.esp",
+    "packageFolder": "com/afnetic/esp",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Y2M0NmY0NDRkY2IwOGU5M2E2MzI0OTA0OWQ4MjZmNmUxOTI2ZmFkOWRkZGNmNGY3MmQ3YWE2NWM1MDQ1M2RjOGVhMjhjN2EyY2I1ZjdjYjczY2UwZWEyOGJjNzZlYzc1MGM2MjI5YzM3OGZhN2VjZWRjNWM2ZTcwYzI1NDY1MjY=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "yeti",
+    "clientThemeVariant": "light",
+    "testFrameworks": ["cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
