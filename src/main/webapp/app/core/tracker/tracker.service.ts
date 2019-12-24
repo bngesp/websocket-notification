@@ -46,7 +46,7 @@ export class JhiTrackerService {
     const headers = {};
     this.stompClient.connect(headers, () => {
       this.connectedPromise('success');
-      this.connectedPromise = null;
+      //this.connectedPromise = null;
       this.sendActivity();
       if (!this.alreadyConnectedOnce) {
         this.subscription = this.router.events.subscribe(event => {
