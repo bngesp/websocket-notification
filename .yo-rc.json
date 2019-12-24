@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "bng.afnetic.sn"
+    },
+    "jhipsterVersion": "6.6.0",
+    "applicationType": "microservice",
+    "baseName": "test",
+    "packageName": "bng.afnetic.sn",
+    "packageFolder": "bng/afnetic/sn",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YWU3MDhkOGZmMjk2ODhkNDkwNGMxYzFiZmE4M2E2ZTgxZDRlMjMwMzQ1MmFhZWE3Mjc1MDAwZWM0Mzk3YzFhODZiMTY2MGI0ZTUxM2ZiOTU1NzY4N2UyZTNlODJmZTNmODkwMzA2NDU3YmFmZmZlYTI3ZDI5MDk3NTAyY2Y4NDc=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1577220605609,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
