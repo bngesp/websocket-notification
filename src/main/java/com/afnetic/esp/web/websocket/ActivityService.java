@@ -30,6 +30,7 @@ public class ActivityService implements ApplicationListener<SessionDisconnectEve
     @MessageMapping("/topic/activity")
     @SendTo("/topic/tracker")
     public ActivityDTO sendActivity(@Payload ActivityDTO activityDTO, StompHeaderAccessor stompHeaderAccessor, Principal principal) {
+        System.out.println("\n\n boy information bi nieuwna deh");
         activityDTO.setUserLogin(principal.getName());
         activityDTO.setSessionId(stompHeaderAccessor.getSessionId());
         activityDTO.setIpAddress(stompHeaderAccessor.getSessionAttributes().get(IP_ADDRESS).toString());

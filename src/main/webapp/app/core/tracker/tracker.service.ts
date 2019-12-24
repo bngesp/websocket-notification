@@ -79,7 +79,7 @@ export class JhiTrackerService {
     if (this.stompClient !== null && this.stompClient.connected) {
       this.stompClient.send(
         '/topic/activity', // destination
-        JSON.stringify({ page: this.router.routerState.snapshot.url }), // body
+        JSON.stringify({ page: 'ceci est un message de test' }), // body
         {} // header
       );
     }
